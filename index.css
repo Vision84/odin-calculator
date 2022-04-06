@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+#container {
+    background-color: black;
+    min-height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+#container div {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row-reverse;
+}
+
+#output {
+    background-color: lightgray;
+    border-radius: 5px;
+    height: 2%;
+    margin: 0;
+    padding: 0;
+}
+
+#output-text {
+    flex: 1 1 auto;
+    font-size: 7vw;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.row button {
+    width: 25%;
+    font-size: 2vh;
+}
+
+.operation { 
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+}
+
+.operation:active {
+    background-color: darkorange;
+}
+
+.blank {
+    background-color: black;
+    border: none;
+}
+
+#clear {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+#clear:active {
+    background-color: whitesmoke;
+}
+
+.number {
+    background-color: aqua;
+    border: none;
+    border-radius: 2px;
+}
+
+.number:active {
+    background-color: aquamarine;
+}
